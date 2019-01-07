@@ -1,0 +1,18 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+@keyframes placeHolderShim{0%{background-position:-468px 0}100%{background-position:468px 0}}.loader-shim{animation-duration:1s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-name:placeHolderShim;animation-timing-function:linear;background:linear-gradient(to right,#f0f0f0 8%,#e5e5e5 18%,#f0f0f0 33%);background-size:800px 104px;border-radius:6px;display:inline-block;height:6px;position:relative;width:100%}.loader-shim+.loader-shim{margin-left:5px}.loader-shim--dots{border-radius:50%;height:20px;margin-top:10px;opacity:.3;width:20px}.loader-spinner{align-items:center;background-color:#ffa800;border-radius:50%;box-shadow:0 1px 7px 0 rgba(0,0,0,.07),0 4px 10px rgba(0,0,0,.05);display:inline-flex;height:55px;justify-content:center;position:relative;width:55px}.loader-spinner .freshsales-logo{position:relative;top:2px}.loader-spinner .freshsales-logo>svg{width:20px}.loader-spinner .spinner-app-load{display:inline-block;vertical-align:middle;font-size:3px;text-indent:-9999em;position:absolute;border-top:3px solid #fff;border-right:3px solid transparent;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);-webkit-animation:spinner .9s infinite linear;animation:spinner .9s infinite linear;border-radius:50%;width:45px;height:45px;top:0;right:0;bottom:0;left:0;margin:auto}@-webkit-keyframes spinner{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spinner{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}#loader-text{margin-top:15px}#loader-text .loader-icon-wrapper{width:30px;height:30px;border:1px solid #e5e5e5;display:inline-block;font-size:14px;line-height:14px;padding:8px 0 0;color:#333}#loader-text .icon-circle-wrapper{border-radius:50%}
